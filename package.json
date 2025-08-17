@@ -1,0 +1,22 @@
+{
+  "name": "discord-ai-bot",
+  "version": "1.0.0",
+  "description": "Starter Discord bot with slash commands (ping/echo/ask)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "starter"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.30.0",
+    "openai": "^5.12.2"
+  }
+}
